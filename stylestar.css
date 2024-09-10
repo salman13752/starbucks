@@ -1,0 +1,378 @@
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    
+}
+.left-nav
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+.right-nav
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+   
+}
+.left-nav a
+{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+}
+.right-nav .bt1
+{
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+}
+.right-nav .btn2{
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.btn
+{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+}
+.main{
+    width: 1200px;
+    height:40px;
+    background: rgb(254, 252, 252);
+    border: 1px solid rgb(180, 175, 175);
+}
+.left-nav img{
+    width:50px;
+}
+.right-nav img{
+    width: 30px;
+    
+    
+}
+.right-nav a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.pic1 img{
+    width:50%;
+    float: left;
+}
+.pic01{
+    width:50%;
+    height: 542px;
+    background:#006241;
+    float: left;
+}
+.pic1-main{
+    padding-top: 35px;
+}
+.pic01 h1{
+    text-align: center;
+    font-size:55px;
+    padding-top: 60px;
+    color: #fff;
+    font-family: Arial;
+}
+.pic01 p{
+    text-align: center;
+    color: #fff;
+    font-size:25px;
+    font-family: Arial;
+    line-height:1.5;
+    
+}
+.pic2{
+    width: 50%;
+    height: 542px;
+    background:#9e2240;
+    float: left;
+    margin-top: 30px;
+}
+.pic02 img{
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.pic2 h1{
+    text-align: center;
+    font-size:50px;
+    font-family: Arial;
+    color: #fff;
+    padding-top: 90px;
+}
+.pic2 p{
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.pic01 button{
+    margin-left: 210px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #006241;
+    color: #fff;
+    height: 35px;
+    width: 180px;
+    font-weight: bold;
+}
+.pic2 button{
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #9e2240;
+    color: #fff;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+
+}
+.leftimg img{
+    float: left;
+    width:50%;
+    margin-top: 30px;
+}
+.rightimg{
+    width: 50%;
+    margin-top: 30px;
+    height: 365px;
+    background:#006241;
+    float: left;
+    
+}
+.rightimg h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+    font-family: Arial;
+    
+    }
+    .rightimg p{
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .rightimg button{
+        margin-left: 250px;
+        border-radius: 30px;
+        width: 100px;
+        height: 40px;
+        background: #006241;
+        border: 1px solid#fff;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .leftimg4 img{
+        width:50% ;
+        margin-top: 30px;
+        float: left;
+
+    }
+    .rightimg4{
+        width: 50%;
+        height: 542px;
+        background: #d9e89a;
+        float: left;
+        margin-top: 30px;
+    }
+    .rightimg4 h1{
+        color:rgb(70, 69, 69);
+        font-size:55px;
+        font-family: Arial;
+        padding-left: 90px;
+        padding-top: 130px;
+    }
+    .rightimg4 p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .rightimg4 button{
+        background: #d9e89a;
+        border-radius: 30px;
+        width: 100px;
+        height: 40px;
+        border: 1px solid rgb(56, 54, 54);
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(59, 58, 58);
+        margin-left: 270px;
+    }
+    .leftimg5{
+        width: 50%;
+        height: 540px;
+        background: #d9e89a;
+        float: left;
+        margin-top: 30px;
+    }
+    .rightimg5 img{
+        width:50%;
+        float: left;
+        margin-top: 30px;
+    }
+    .leftimg5 h1{
+        font-size:60px;
+        text-align: center;
+        color: #403e3e;
+        padding-top: 30px;
+    }
+    .leftimg5 p{
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        color: #4f4d4d;
+        line-height: 1.5;
+    }
+    .leftimg5 button{
+        
+        width: 85px;
+        border-radius: 40px;
+        height: 35px;
+        background:  #d9e89a;
+        border: 1px solid black;
+        font-weight: bold;
+        margin-left: 255px;
+    }
+    .leftimg6 img{
+        width: 50%;
+        padding-top: 30px;
+        float: left;
+
+    }
+    .rightimg6{
+        width: 50%;
+        height: 364px;
+        background: #f2f0eb;
+        float: left;
+        margin-top: 30px;
+    }
+.rightimg6 h1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    padding-top: 50px;
+
+}
+.rightimg6 p{
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.5;
+    color: #524f4f;
+}
+.rightimg6 button{
+    border-radius: 30px;
+    background:#f2f0eb ;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.bottam-text{
+    width:100%;
+    height: 790px;
+    background: #ffffff;
+    float: left;
+}
+.bottam1 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.bottm2 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.bottam3 p{
+    text-align:center;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 80px;
+}
+.bottam4 p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 80px;
+    line-height: 1.5;
+}
+.final{
+    width: 20%;
+    height: 300px;
+    background: #a04f4f;
+    float: left;
+
+}
+.row2{
+    float: left;
+}
+
+table{
+    font-family: arial, sans-serif;
+  
+    width: 90%;
+    text-align:center;
+    padding-left: 30px;
+    line-height: 2;
+}
+td, th {
+ 
+    text-align: left;
+    padding: 8px;
+    
+  }
+  th{
+    font-size: 18px;
+    
+  }
+  td{
+    color: #878686;
+  }
+  .f-logo i{
+    font-size: 30px;
+    padding: 10px;
+
+  }
+  .f-logo{
+    padding-left: 15px;
+  }
+  .f-text ul{
+    font-size: 17px;
+    font-family: Arial;
+    line-height: 3px;
+    color: #4b4343;
+
+     }
+     .f-text{
+        padding-top: 35px;
+     }
+     .final-final h5{
+      font-family: Arial;
+      color: #878686;
+      font-weight: lighter;
+      padding-left: 35px;
+      padding-top: 28px;
+     }
